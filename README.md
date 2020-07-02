@@ -2,12 +2,23 @@
 
 ## Pre-requisites
 
-Node js installed\
+NodeJS installed\
 MongoDB installed
 
 ## Running instructions
 
-Open the terminal\
-Go to the route of the project\
-run "npm install"\
-run "node index.js"
+1. Open the terminal
+2. Go to the route of the project
+3. Run the following:
+
+```
+npm install
+```
+
+Then run the following:
+
+```
+node index.js
+```
+
+Now the endpoints are alive
