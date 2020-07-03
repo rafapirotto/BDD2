@@ -25,7 +25,7 @@ Now the endpoints are alive
 
 ## Available endpoints
 
-post "/wikis" -->Post a new wiki
+post "/wikis" -->Post a new wiki\
 get "/wikis/:id" -->Get by id_repositorio
 
 ### Note
