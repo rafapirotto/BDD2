@@ -9,7 +9,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const saveWikiToDataBase = async (wiki) => {
-  const dbWiki = new Wiki({ paginas: wiki });
+  // parse the id_repositorio from String to Int
+  wiki.id_repositorio = parseInt(wiki.id_repositorio);
+  const dbWiki = new Wiki(wiki);
   await dbWiki.save(function (err, t) {
     if (err) {
       throw new Error("Wiki schema validation failed");
@@ -18,6 +20,7 @@ const saveWikiToDataBase = async (wiki) => {
 };
 
 const getWikiFromRepository = async (id) =>
+  //   await Wiki.find({ id_repositorio: id });
   await Wiki.find({ id_repositorio: id });
 
 //  insert
@@ -27,7 +30,7 @@ app.post("/wikis", async function (req, res) {
     await saveWikiToDataBase(wiki);
     res.status(200).send(wiki);
   } catch (error) {
-    res.status(400).send("Error at insertion");
+    res.status(400).send("Error at insertion" + error);
   }
 });
 
