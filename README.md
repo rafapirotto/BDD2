@@ -22,3 +22,12 @@ node index.js
 ```
 
 Now the endpoints are alive
+
+## Available endpoints
+
+post "/wikis" -->Post a new wiki
+get "/wikis/:id" -->Get by id_repositorio
+
+### Note
+
+Everything runs on port 3000
