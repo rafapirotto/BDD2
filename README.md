@@ -1,4 +1,4 @@
-# Installation and setup:
+# Installation instructions:
 
 ## Pre-requisites
 
@@ -39,7 +39,7 @@ node autoInsertions.js
 
 - Web server: `http://localhost:3000`
 
-### Get wiki actions
+### Get wiki action
 
 - **URL**
 
