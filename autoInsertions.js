@@ -19,6 +19,7 @@ const handleRequest = async () => {
     const randomContent = wikiContent[randomContentId];
     const repoId = Math.floor(Math.random() * 10 + 1);
     const body = { id_repositorio: repoId, ...randomContent };
+    console.log(body);
     await axios.post(URL, body);
   } catch (error) {
     console.log(error);
