@@ -1,0 +1,22 @@
+{
+  "paginas": [
+    {
+      "pagina": {
+        "titulo": "Criptografia",
+        "creador": "Rick Sanchez",
+        "fecha_ultima_modificacion": "12/03/2018",
+        "contenido": "La aparición de la informática y el uso masivo de las comunicaciones digitales, han producido un número creciente de problemas de seguridad.​",
+        "revisiones": [
+          {
+            "contenido": "La criptografía actualmente se encarga del estudio de los algoritmos, protocolos y sistemas que se utilizan para dotar de seguridad a las comunicaciones, a la información y a las entidades que se comunican.",
+            "fecha": "18/03/2018"
+          },
+          {
+            "contenido": "Para poder evaluar mejor la seguridad de un sistema criptográfico, además de las verificaciones internas de seguridad que la organización haga, se puede considerar hacer público a todo el mundo los entresijos del sistema.",
+            "fecha": "19/03/2018"
+          }
+        ]
+      }
+    }
+  ]
+}

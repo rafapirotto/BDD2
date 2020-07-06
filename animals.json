@@ -1,0 +1,40 @@
+{
+  "paginas": [
+    {
+      "pagina": {
+        "titulo": "Osos polares",
+        "creador": "Roberto Perez",
+        "fecha_ultima_modificacion": "21/05/2020",
+        "contenido": "El oso polar u oso blanco es una especie de mamífero carnívoro de la familia de los osos.​",
+        "revisiones": [
+          {
+            "contenido": "Vive en el medio polar y zonas heladas del hemisferio norte.",
+            "fecha": "05/03/2020"
+          },
+          {
+            "contenido": "Es una especie de mamífero carnívoro de la familia de los osos.",
+            "fecha": "11/04/2020"
+          }
+        ]
+      }
+    },
+    {
+      "pagina": {
+        "titulo": "Cebras",
+        "creador": "Romina Lopez",
+        "fecha_ultima_modificacion": "14/08/2019",
+        "contenido": "Se conocen como cebra​ a tres especies del género Equus propias de África.",
+        "revisiones": [
+          {
+            "contenido": "Las cebras tienen un excelente sentido de la vista. Se cree que pueden ver en color.",
+            "fecha": "03/02/2019"
+          },
+          {
+            "contenido": "Se conocen como cebra​ a tres especies del género Equus propias de África cuya característica más distintiva es su coloración a base de rayas negras sobre un fondo blanco.",
+            "fecha": "22/07/2019"
+          }
+        ]
+      }
+    }
+  ]
+}
