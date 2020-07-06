@@ -33,11 +33,64 @@ Now the endpoints are alive
 node autoInsertions.js
 ```
 
-## Available endpoints
+## API Documentation
 
-post "/wikis" -->Post a new wiki\
-get "/wikis/:id" -->Get wiki by id_repositorio
+### Default URLs
 
-### Note
+- Web server: `http://localhost:3000`
 
-Everything runs on port 3000
+### Get wiki actions
+
+- **URL**
+
+  /wikis/:id
+
+- **Method**
+
+  `GET`
+
+- **URL params**
+
+  **Required:**
+
+  `id_repositorio=[integer]`
+
+### Post wiki action
+
+- **URL**
+
+  /wikis
+
+- **Method**
+
+  `POST`
+
+- **Body**
+
+  **Required:**
+
+  ```json
+  {
+    "paginas": [
+      {
+        "pagina": {
+          "titulo": "Any title",
+          "creador": "Any creator",
+          "fecha_ultima_modificacion": "Any date",
+          "contenido": "Any content",
+          "revisiones": [
+            {
+              "contenido": "Any content",
+              "fecha": "Any date"
+            },
+            {
+              "contenido": "Any content",
+              "fecha": "Any date"
+            }
+          ]
+        }
+      }
+    ],
+    "id_repositorio": "Any number"
+  }
+  ```
